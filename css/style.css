@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+ul,li{
+  list-style-type: none;
+}
+a,a:hover{
+  text-decoration: none;
+  display: inline-block;
+}
+.sliderOne{
+  background:url(../images/g1.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+.two{
+  background:url(../images/g2.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+.three{
+  background:url(../images/g3.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+.overly{
+  background: rgba(0, 0, 0, 0.664);
+  padding: 300px 0;
+}
+.left{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  transform: translateY(-50%);
+  z-index:999 ;
+}
+.right{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  transform: translateY(-50%);
+  z-index:999 ;
+}
+.slick-dots{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.slick-dots li{
+  display: inline-block;
+}
+.slick-dots li button{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  border: none;
+  margin: 0 5px;
+  font-size: 0;
+}
